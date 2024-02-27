@@ -1,0 +1,10 @@
+{
+	"husky": {
+		"hooks": {
+			"pre-commit": "npm run clean-versions && npm run lint"
+		},
+		"scripts": {
+			"clean-versions": "./husky/scripts/clean-versions.js"
+		}
+	}
+}
